@@ -11,7 +11,7 @@ const VideoCard = ({ info }) => {
       <div>
         <img className="rounded-lg" alt="thumbnail" src={thumbnails.medium.url} />
       </div>
-      <div className="flex">
+      <div className="flex justify-center">
         <div className="">
           <FaUserCircle />
         </div>
